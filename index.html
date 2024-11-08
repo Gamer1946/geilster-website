@@ -200,7 +200,7 @@
         });
 		
         function fetchYouTubeSubscribers() {
-            fetch('https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UCbKK-FuYjTkApM3Nz44sk1g&key=AIzaSyBLDiNdgFA00az_vsyUgL0xc7P5fbvuA6I')
+            fetch('https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UCbKK-FuYjTkApM3Nz44sk1g&key=(Put_GoogleAPI_here)')
             .then(response => response.json())
             .then(data => {
                 const subscriberCount = Number(data.items[0].statistics.subscriberCount).toLocaleString();

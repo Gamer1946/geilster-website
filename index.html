@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.jpg" type="image/x-icon">
+    <meta name="description" content="Geilster Website">
+    <title>Geilster Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            background: url('https://yt3.googleusercontent.com/Uw9NcsXhB5ANTUIiyxzfv_-OxubPMvaywFjk8KE4dpWQy-FROa5wJqj5Sik1UrWpU7gJRqHv-A=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj') center/cover fixed no-repeat;
+            backdrop-filter: blur(10px);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+            padding: 20px;
+            background-color: rgba(30, 30, 30, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #00008B;
+        }
+        .banner-image-container {
+            margin: 20px 0;
+        }
+        .banner-image {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            -webkit-user-drag: none;
+            user-drag: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .subscriber-box {
+            background-color: #282828;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .subscriber-title {
+            font-size: 18px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .subscriber-count {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .button-icon {
+            margin-right: 5px;
+            font-size: 16px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            margin-top: 20px;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .description-container {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #282828;
+            border-radius: 8px;
+            text-align: left;
+        }
+        .description-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>𝐆𝐞𝐢𝐥𝐬𝐭𝐞𝐫 𝐖𝐞𝐛𝐬𝐢𝐭𝐞</h1>
+        <div class="banner-image-container">
+            <img src="icon.jpg" alt="Geilster's Banner" class="banner-image">
+        </div>
+        <p>Version 4</p>
+        <div class="subscriber-box">
+            <div class="subscriber-title">YouTube Subscribers</div>
+            <div class="subscriber-count" id="youtube-subscribers">Loading...</div>
+            <div>Subscribe now!</div>
+        </div>
+        <h2>Latest Live Streams</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/11uVpLd0_TU" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="description-container">
+            <div class="description-title">Channel Description</div>
+            <div>Hello Crewmate, Welcome to my Channel. In this Channel, I will upload Among Us and other stuff. Also, subscribe to my channel and don't miss any videos :)</div>
+            <div>
+            <div>Milestones:</div>
+            <ul>
+                <li>10 Subs: 7.4.2022 ✅</li>
+                <li>100 Subs: 4.9.2022 ✅</li>
+                <li>500 Subs: 23.1.2023 ✅</li>
+                <li>1K Subs: 28.1.2023 ✅</li>
+                <li>5K Subs: 7.4.2023 ✅</li>
+                <li>10K Subs: 28.12.2023 ✅</li>
+                <li>50K Subs (Secret): ❌</li>
+                <li>100K Subs (My YouTube Story): ❌</li>
+                <li>500K Subs (Super Special Video): ❌</li>
+                <li>1M Subs (Face Reveal): ❌</li>
+            </ul>
+        </div>
+        <a href="https://www.youtube.com/@AntonioTheBlueWolf?sub_confirmation=1" class="button" target="_blank" style="background-color: #FF0000;">
+            <i class="fab fa-youtube button-icon"></i> Visit YouTube
+        </a>
+        <a href="https://discord.gg/xD2QCa3W7G" class="button" target="_blank" style="background-color: #7289DA;">
+            <i class="fab fa-discord button-icon"></i> Join Discord
+        </a>
+        <a href="https://www.speedrun.com/users/Geilster" class="button" target="_blank" style="background-color: #FFFF00;">
+            <i class="material-symbols-outlined"></i> Speedrun Acc
+        </a>
+        <a href="https://www.twitch.tv/geilsterrr" class="button" target="_blank" style="background-color: #A020F0;">
+            <i class="fab fa-twitch button-icon"></i> Twitch
+        </a>
+        <a href="https://www.reddit.com/user/Geilster/?rdt=56383" class="button" target="_blank" style="background-color: #FFA500;">
+            <i class="fab fa-reddit button-icon"></i> Reddit
+        </a>
+    </div>
+    <script>
+        function setCookie(name, value, days) {
+            const date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            const expires = "expires=" + date.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/";
+        }
+
+        function getCookie(name) {
+            const cname = name + "=";
+            const decodedCookie = decodeURIComponent(document.cookie);
+            const ca = decodedCookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(cname) === 0) {
+                    return c.substring(cname.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        function playAudio() {
+            const audio = new Audio('IDFKlol.wav');
+            audio.preload = 'auto';
+            audio.play();
+        }
+
+        window.addEventListener('load', function() {
+            if (!getCookie('audioPlayed')) {
+                playAudio();
+                setCookie('audioPlayed', 'true', 36500);
+            }
+        });
+		
+        function fetchYouTubeSubscribers() {
+            fetch('https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UCbKK-FuYjTkApM3Nz44sk1g&key=AIzaSyBLDiNdgFA00az_vsyUgL0xc7P5fbvuA6I')
+            .then(response => response.json())
+            .then(data => {
+                const subscriberCount = Number(data.items[0].statistics.subscriberCount).toLocaleString();
+                document.getElementById('youtube-subscribers').innerText = subscriberCount;
+            })
+            .catch(error => console.error('Error fetching YouTube subscribers:', error));
+        }
+
+        fetchYouTubeSubscribers();
+        setInterval(fetchYouTubeSubscribers, 60000);
+
+        document.addEventListener('keydown', function (event) {
+            if (event.key === 'F12' || (event.ctrlKey && ['u', 'i', 'j'].includes(event.key.toLowerCase()))) {
+                event.preventDefault();
+            }
+        });
+
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+
+        document.querySelectorAll('img').forEach(function(img) {
+            img.addEventListener('touchstart', function(e) {
+                e.preventDefault();
+            });
+        });
+    </script>
+</body>
+</html>
